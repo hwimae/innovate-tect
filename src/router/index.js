@@ -1,45 +1,45 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../../views/Home.vue'
-import About from '../../views/About.vue'
-import Services from '../../views/Services.vue'
-import Contact from '../../views/Contact.vue'
+import { createRouter, createWebHistory } from "vue-router";
+import Home from "../../views/Home.vue";
+import About from "../../views/About.vue";
+import Services from "../../views/Services.vue";
+import Contact from "../../views/Contact.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
-    component: Home
+    path: "/",
+    name: "Home",
+    component: Home,
   },
   {
-    path: '/gioi-thieu',
-    name: 'About', 
-    component: About
+    path: "/gioi-thieu",
+    name: "About",
+    component: About,
   },
   {
-    path: '/dich-vu',
-    name: 'Services',
-    component: Services
+    path: "/dich-vu",
+    name: "Services",
+    component: Services,
   },
   {
-    path: '/giai-phap',
-    name: 'Solutions',
-    component: () => import('../../views/Services.vue') 
+    path: "/giai-phap",
+    name: "Solutions",
+    component: () => import("../../views/Solution.vue"),
   },
   {
-    path: '/tin-tuc',
-    name: 'News',
-    component: () => import('../../views/About.vue') 
+    path: "/tin-tuc",
+    name: "News",
+    component: () => import("../../views/Blog.vue"),
   },
   {
-    path: '/lien-he',
-    name: 'Contact',
-    component: Contact
-  }
-]
+    path: "/lien-he",
+    name: "Contact",
+    component: Contact,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
