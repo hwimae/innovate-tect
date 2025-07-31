@@ -4,7 +4,7 @@
       <!-- Title Section -->
       <div class="w-full max-w-7xl mx-auto mb-12">
         <div class="space-y-4">
-          <div class="text-sm text-gray-400 font-mono">/ solution /</div>
+          <div class="text-gray-600 text-sm mb-2">/ SOLUTION /</div>
           <div>
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 text-gray-900">
               <span class="block">Giải pháp sáng tạo từ</span>

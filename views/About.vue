@@ -54,6 +54,9 @@ export default {
         { id: 3, name: 'Lê Văn C', position: 'Lead Developer' }
       ]
     }
+  },
+  mounted() {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 }
 </script>

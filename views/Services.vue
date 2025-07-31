@@ -8,7 +8,6 @@
       </div>
     </section>
 
-    <!-- Services Grid -->
     <section class="py-20">
       <div class="container mx-auto px-4">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -42,6 +41,9 @@ export default {
     return {
       services: servicesData
     }
+  },
+  mounted() {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 }
 </script>

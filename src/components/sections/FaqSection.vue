@@ -2,7 +2,7 @@
   <section id="faq" class="py-20 bg-gray-50">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <div class="text-blue-600 text-sm font-semibold mb-4">FAQ</div>
+        <div class="text-gray-600 text-sm mb-2">/ FAQ /</div>
         <h2 class="text-4xl font-bold">Các câu hỏi và thắc mắc thường gặp</h2>
       </div>
       <div class="max-w-3xl mx-auto space-y-4">

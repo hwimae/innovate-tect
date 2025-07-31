@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4">
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <div class="text-blue-600 text-sm font-semibold mb-4">ABOUT US</div>
+          <div class="text-gray-600 text-sm mb-2">ABOUT US</div>
           <h2 class="text-4xl font-bold mb-6">Giải pháp công nghệ sáng tạo</h2>
           <div class="space-y-6">
             <div class="border-l-4 border-blue-600 pl-6">

@@ -91,11 +91,13 @@ export default {
   },
   methods: {
     submitForm() {
-      // Handle form submission
       console.log('Form submitted:', this.form)
       alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất.')
       this.form = { name: '', email: '', message: '' }
     }
+  },
+  mounted() {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 }
 </script>

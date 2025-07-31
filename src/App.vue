@@ -3,18 +3,21 @@
     <Header />
     <router-view />
     <Footer />
+    <ScrollToTopButton />
   </div>
 </template>
 
 <script>
 import Header from './components/common/Header.vue'
 import Footer from './components/common/Footer.vue'
+import ScrollToTopButton from './components/common/ScrollToTopButton.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Footer
+    Footer,
+    ScrollToTopButton
   }
 }
 </script>

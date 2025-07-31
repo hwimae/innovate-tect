@@ -12,7 +12,7 @@
 
     <div class="container mx-auto px-6 relative z-10">
       <div class="text-center mb-16">
-        <div class="text-blue-600 text-sm font-semibold mb-4 tracking-wider">/ FEATURES /</div>
+        <div class="text-gray-600 text-sm mb-2">/ FEATURES /</div>
         <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 max-w-4xl mx-auto leading-tight">
           Công nghệ đột phá và những<br>
           lợi ích đáng kinh ngạc
